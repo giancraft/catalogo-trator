@@ -1,0 +1,49 @@
+body{
+    display: grid;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: #DB9A1B;
+    display: flex;
+    align-items: center; 
+}
+
+.logo {
+    width: 5vw;
+    height: auto;
+}
+
+.titulo {
+    margin-left: 1vw;
+}
+
+.main{
+    height: 75vh;
+    width: 100%;
+}
+
+.grid-column{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.imagens{
+    width: 20%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: #DB9A1B;
+    display: flex;
+    align-items: center; 
+}
+
+.sobre {
+    margin-left: 2vw;
+}

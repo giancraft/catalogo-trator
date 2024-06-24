@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>Catálogo de Tratores</title>
 </head>
 <body>
@@ -11,11 +13,100 @@
         <img src="img/trator_logo.png" alt="trator" class="logo">
         <h2 class="titulo">Catálogo de Tratores</h2>
     </header>
+    <br>
+    <a href="" style="color: black; text-decoration: none;"><h2>Novidades</h2></a>
     <div class="main">
-        
+        <div class="swiper-container">
+            <div class="swiper-wrapper"> 
+                <div class="swiper-slide">
+                    <div class="container">
+                        <img src="img/trator-verde1.png" alt="Trator" class="imagens-catalogo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <img src="img/trator-azul1.png" alt="Trator" class="imagens-catalogo-menor">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <img src="img/trator-amarelo1.png" alt="Trator" class="imagens-catalogo">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
+    <br><br><br><br><a href="grid-john.html" style="color: black; text-decoration: none;"><h2>John Derre</h2></a>
+    <div class="main">
+        <div class="swiper-container">
+            <div class="swiper-wrapper"> 
+                <div class="swiper-slide">
+                    <div class="container">
+                        <img src="img/trator-verde1.png" alt="Trator" class="imagens-catalogo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <img src="img/trator-verde2.png" alt="Trator" class="imagens-catalogo-menor">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <img src="img/trator-verde3.png" alt="Trator" class="imagens-catalogo-menor">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <br><br><br><br><a href="" style="color: black; text-decoration: none;"><h2>New Holland</h2></a>
+    <div class="main">
+        <div class="swiper-container">
+            <div class="swiper-wrapper"> 
+                <div class="swiper-slide">
+                    <div class="container">
+                        <img src="img/trator-azul1.png" alt="Trator" class="imagens-catalogo-menor">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <img src="img/trator-azul2.png" alt="Trator" class="imagens-catalogo-menor">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <img src="img/trator-azul3.png" alt="Trator" class="imagens-catalogo-menor">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <br><br>
     <footer>
         <h2 class="sobre">Sobre nós</h2>
     </footer>
+
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
 </body>
 </html>
