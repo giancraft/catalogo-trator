@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (orientation: landscape) {
+    header {
+        width: 100%;
+        height: 10vh;
+        background-color: #DB9A1B;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 5vw;
+        height: auto;
+    }
+
+    .titulo {
+        margin-left: 1vw;
+    }
+
+    .main {
+        flex: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .imagem{
+        width: 30%;
+        margin-right: 5%;
+    }    
+
+    .titulo-desc{
+        margin-bottom: 5%;
+    }
+    
+    .descricao{
+        font-size: 16pt;
+        padding: 0;
+        margin-left: 5%;
+    }
+    
+    li{
+        margin-bottom: 3%;
+    }
+    
+    .opcoes{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 1.4%;
+    }
+    
+    .quant, .comprar{
+        width: 10vw;
+        height: 5vh;
+        font-size: 13pt;
+        background-color: #DB9A1B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        border: 1px solid ;
+    }
+    
+    .quant{
+        margin-right: 10%;
+    }
+    
+    footer {
+        width: 100%;
+        height: 15vh;
+        background-color: #DB9A1B;
+        display: flex;
+        align-items: center;
+    }
+    
+    .sobre {
+        margin-left: 2vw;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    header {
+        width: 100%;
+        height: 10vh;
+        background-color: #DB9A1B;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 15vw;
+        height: auto;
+    }
+
+    .titulo {
+        margin-left: 1vw;
+    }
+
+    .main {
+        flex: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imagem{
+        width: 50%;
+        margin-right: 5%;
+    } 
+
+    .titulo-desc{
+        margin-bottom: 5%;
+        font-size: 14pt;
+    }
+    
+    .descricao{
+        font-size: 12pt;
+        padding: 0;
+        margin-left: 5%;
+    }
+    
+    li{
+        margin-bottom: 3%;
+    }
+    
+    .opcoes{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 1.4%;
+    }
+    
+    .quant, .comprar{
+        width: 25vw;
+        height: 5vh;
+        font-size: 13pt;
+        background-color: #DB9A1B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        border: 1px solid ;
+    }
+    
+    .quant{
+        margin-right: 10%;
+    }
+    
+    footer {
+        width: 100%;
+        height: 15vh;
+        background-color: #DB9A1B;
+        display: flex;
+        align-items: center;
+    }
+    
+    .sobre {
+        margin-left: 5vw;
+    }
+}
+
+.descricao-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
